@@ -1,0 +1,15 @@
+.card {
+  border: 2px solid var(--mantine-color-indigo-6);
+  border-radius: var(--mantine-radius-md);
+  padding: var(--mantine-spacing-md);
+  max-width: 320px;
+}
+
+.count {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.count[data-limit] {
+  color: var(--mantine-color-red-7);
+}
